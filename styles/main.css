@@ -1,0 +1,89 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: #85A5D4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}	
+
+.container{
+	background-color: #fff;
+	width: 1200px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 32px;
+	border-radius: 20px;
+}
+
+.ContainerBox{
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: 10px;
+	padding: 15px;
+	height: 300px;
+}
+
+.ContainerBox:hover{
+	background-color: #F0F0EF;
+	cursor: pointer;
+}
+
+.ContainerBox img{
+	object-fit: contain;
+	width: 80px;
+	height: 80px;
+}
+
+.ContainerBox h3{
+	color: #5572D6;
+}
+
+.ContainerBox p{
+	color: #A7A9AC;
+}
+
+.ContainerBox div{
+	color: #5673D6;
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.ContainerBox sup{
+	font-size: 16px;
+}
+
+.month{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
